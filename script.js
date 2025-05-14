@@ -4,7 +4,7 @@ const todosUL = document.getElementById('todos')
 
 const todos = JSON.parse(localStorage.getItem('todos'))
 
-document.getElementById('title').innerText = 'To-do';
+document.getElementById('title').innerText = 'I am alex';
 
 if(todos) {
     todos.forEach(todo => addTodo(todo))
